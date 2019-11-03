@@ -1,0 +1,25 @@
+/* MAKE IT LOOK PRETTY */
+.button-delete{
+ margin-left: 50%;
+ background-color: red;
+ color: white;
+ border-radius: 13px;
+}
+body{
+    background-image: url("wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    background-color:red;
+}
+.div{
+    background-color: lightyellow;
+}
+.card{
+    background-color: lightyellow;
+}
+.container{
+    margin-top: 100px;
+}
