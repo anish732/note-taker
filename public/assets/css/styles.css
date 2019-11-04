@@ -10,6 +10,7 @@ body{
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
+    image-resolution: 100%;
 }
 .navbar{
     background-color:red;
