@@ -35,7 +35,6 @@ $("#save-btn").on("click", function (event) {
     });
 });
 // create a function to delete the clicked note
-
 $(document).on("click",".button-delete", function(event) {
     console.log("Clicked")
 var id = $(this).attr("name");
