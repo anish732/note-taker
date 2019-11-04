@@ -9,9 +9,6 @@ function displayNotes() {
             var p = $("<p>").text(notes[i].body);
             var buttonDiv = $("<button>").addClass("button-delete").text("delete").attr("name",notes[i].id)
              div.append(span,buttonDiv, p);
- 
-            //buttonDiv.append(button);
-           // $(".list").append(buttonDiv);
             $(".list").append(div);
         }
     })
