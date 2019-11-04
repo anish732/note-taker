@@ -5,6 +5,12 @@
  #### **Technologies used:**
  * Node, Express,Express-handlebar,MySQL
 
+ #### **Screenshot:**
+ ![](note2.png)
+
+ ![](note.png)
+ 
+
 
  #### **Code Example**
  * This code takes notes from the database.
@@ -41,7 +47,7 @@ function displayNotes() {
     })
 }
 
-#### **Installation:
+#### **Installation:**
 
  **NPM packag:**
   <li> Express
