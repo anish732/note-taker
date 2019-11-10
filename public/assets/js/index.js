@@ -6,7 +6,7 @@ function displayNotes() {
         for (var i = 0; i < notes.length; i++) {
             var div = $("<div>").addClass("div");
             var span = $("<span>").text(notes[i].title);
-        var buttonDiv = $("<button>").addClass("button-delete").text("delete").attr(`name ${<i class="fas fa-trash-alt"></i>}`,notes[i].id)
+        var buttonDiv = $("<button>").addClass("button-delete").text("delete").attr("name",notes[i].id)
             var p = $("<p>").text(notes[i].body);
              div.append(span,buttonDiv, p);
             $(".list").append(div);
