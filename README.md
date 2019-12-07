@@ -1,36 +1,49 @@
- ![logo](logo.png)   **Note-taker**     
- #### **Overview**
- #####  User can create, read, and delete notes with this application.
+![logo](logo.png) **Note-taker**
 
- #### **Technologies used:**
- * Node, Express,Express-handlebar,MySQL
+#### **Overview**
 
- #### **Screenshot:**
- ![](note2.png)
+##### User can create, read, and delete notes with this application.
 
- ![](note.png)
- 
+#### **Technologies used:**
 
+ <ul>
 
- #### **Code Example**
- * This code takes notes from the database.
+- Node
+- Express
+- MySQL
 
- router.get
+  </ul>
 
- ("/allnotesdata", function(req, res)
+#### **Screenshot:**
+
+![](note2.png)
+
+![](note.png)
+
+#### **Code Example**
+
+- This code takes notes from the database.
+
+```
+
+router.get
+
+("/allnotesdata", function(req, res)
 {
 
-  connection.query("SELECT * FROM notes",function(err,notes)
+ connection.query("SELECT * FROM notes",function(err,notes)
 {
 
-    console.log(notes)
+   console.log(notes)
 
-    res.json(notes);
+   res.json(notes);
 
-  });
+ });
 
 });
+```
 
+```
 function displayNotes() {
 
     $.get("/allnotesdata", function (notes) {
@@ -46,15 +59,15 @@ function displayNotes() {
         }
     })
 }
+```
 
 #### **Installation:**
 
- **NPM packag:**
+**NPM packag:**
+
   <li> Express
-  <li> Express-handlebars
   <li> MySql
  
+### Hosting on Heroku:
 
-
-
-
+### [Note-taker](https://murmuring-dusk-18279.herokuapp.com/)
